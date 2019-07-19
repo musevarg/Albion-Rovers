@@ -1,0 +1,55 @@
+[15-Mar-2019 12:10:00 UTC] Slim Application Error:
+Type: TypeError
+Message: Argument 1 passed to Slim\Http\Message::withBody() must implement interface Psr\Http\Message\StreamInterface, string given, called in /home/u969528694/public_html/rovers/api/index.php on line 26
+File: /home/u969528694/public_html/rovers/api/vendor/slim/slim/Slim/Http/Message.php
+Line: 297
+Trace: #0 /home/u969528694/public_html/rovers/api/index.php(26): Slim\Http\Message->withBody('{"apiName":"Alb...')
+#1 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/u969528694/public_html/rovers/api/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/u969528694/public_html/rovers/api/vendor/slim/slim/Slim/Route.php(356): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#4 /home/u969528694/public_html/rovers/api/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/u969528694/public_html/rovers/api/vendor/slim/slim/Slim/Route.php(334): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/u969528694/public_html/rovers/api/vendor/slim/slim/Slim/App.php(516): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/u969528694/public_html/rovers/api/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/u969528694/public_html/rovers/api/vendor/slim/slim/Slim/App.php(407): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/u969528694/public_html/rovers/api/vendor/slim/slim/Slim/App.php(315): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#10 /home/u969528694/public_html/rovers/api/index.php(151): Slim\App->run()
+#11 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[15-Mar-2019 12:13:29 UTC] Slim Application Error:
+Type: Error
+Message: Call to undefined method Slim\Http\Response::body()
+File: /home/u969528694/public_html/rovers/api/index.php
+Line: 26
+Trace: #0 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#1 /home/u969528694/public_html/rovers/api/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/u969528694/public_html/rovers/api/vendor/slim/slim/Slim/Route.php(356): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/u969528694/public_html/rovers/api/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /home/u969528694/public_html/rovers/api/vendor/slim/slim/Slim/Route.php(334): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/u969528694/public_html/rovers/api/vendor/slim/slim/Slim/App.php(516): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/u969528694/public_html/rovers/api/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/u969528694/public_html/rovers/api/vendor/slim/slim/Slim/App.php(407): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/u969528694/public_html/rovers/api/vendor/slim/slim/Slim/App.php(315): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/u969528694/public_html/rovers/api/index.php(151): Slim\App->run()
+#10 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[15-Mar-2019 12:13:30 UTC] Slim Application Error:
+Type: Error
+Message: Call to undefined method Slim\Http\Response::body()
+File: /home/u969528694/public_html/rovers/api/index.php
+Line: 26
+Trace: #0 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#1 /home/u969528694/public_html/rovers/api/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/u969528694/public_html/rovers/api/vendor/slim/slim/Slim/Route.php(356): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/u969528694/public_html/rovers/api/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /home/u969528694/public_html/rovers/api/vendor/slim/slim/Slim/Route.php(334): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/u969528694/public_html/rovers/api/vendor/slim/slim/Slim/App.php(516): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/u969528694/public_html/rovers/api/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/u969528694/public_html/rovers/api/vendor/slim/slim/Slim/App.php(407): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/u969528694/public_html/rovers/api/vendor/slim/slim/Slim/App.php(315): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/u969528694/public_html/rovers/api/index.php(151): Slim\App->run()
+#10 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+

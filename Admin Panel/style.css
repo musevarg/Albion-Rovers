@@ -1,0 +1,66 @@
+#container {
+    width:100%;
+    height: 100%;
+    margin:0 auto;
+    overflow: hidden;
+    display: table;
+}
+
+/* Sidebar */
+
+#sidebar {
+    display: table-cell;
+    position: relative;
+    width:14%;
+    min-height: fill-available;
+    background: #ffcf2f;
+    background: repeating-linear-gradient(120deg, #ffcf2f, #ffcf2f 10px, #ffd96a 10px, #ffd96a 20px);
+}
+
+#sidebar-elements
+{
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    top: 10px;
+}
+
+#header
+{
+	height: 100px;
+	width: 80px;
+	margin: auto;
+	margin-top: 10px;
+	background-image: url('logo.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.badge
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#list input
+{
+	display: block;
+	width: 90%;
+	margin: auto;
+	margin-top: 10px;
+}
+
+#footer
+{
+	position: absolute;
+	width: 100%;
+	margin: auto;
+	bottom: 0;
+}
+
+/* Content */
+
+#content {
+    width:85%;
+    display: table-cell;
+}

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".squad.FullPlayer"
+    tools:showIn="@layout/activity_fullplayer"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/playerPic"
+                android:scaleType="centerInside"
+                android:layout_margin="10dp"
+                />
+
+            <TextView
+                android:id="@+id/playerNameText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="Bryan Johnson"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Date Of Birth"
+                    android:layout_margin="10dp"
+                    android:layout_weight="0.5"
+                    />
+
+                <TextView
+                    android:id="@+id/playerDob"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Date Of Birth"
+                    android:gravity="right"
+                    android:layout_margin="10dp"
+                    android:layout_weight="0.5"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Place Of Birth"
+                    android:layout_margin="10dp"
+                    android:layout_weight="0.5"
+                    />
+
+                <TextView
+                    android:id="@+id/playerPob"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Place Of Birth"
+                    android:gravity="right"
+                    android:layout_margin="10dp"
+                    android:layout_weight="0.5"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Height"
+                    android:layout_margin="10dp"
+                    android:layout_weight="0.5"
+                    />
+
+                <TextView
+                    android:id="@+id/playerHeight"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Height"
+                    android:gravity="right"
+                    android:layout_margin="10dp"
+                    android:layout_weight="0.5"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Position"
+                    android:layout_margin="10dp"
+                    android:layout_weight="0.5"
+                    />
+
+                <TextView
+                    android:id="@+id/playerPosition"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Position"
+                    android:gravity="right"
+                    android:layout_margin="10dp"
+                    android:layout_weight="0.5"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Nationality"
+                    android:layout_margin="10dp"
+                    android:layout_weight="0.5"
+                    />
+
+                <TextView
+                    android:id="@+id/playerNationality"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Nationality"
+                    android:gravity="right"
+                    android:layout_margin="10dp"
+                    android:layout_weight="0.5"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Joined"
+                    android:layout_margin="10dp"
+                    android:layout_weight="0.5"
+                    />
+
+                <TextView
+                    android:id="@+id/playerJoined"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Joined"
+                    android:gravity="right"
+                    android:layout_margin="10dp"
+                    android:layout_weight="0.5"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Contract until"
+                    android:layout_margin="10dp"
+                    android:layout_weight="0.5"
+                    />
+
+                <TextView
+                    android:id="@+id/playerContract"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Contract"
+                    android:gravity="right"
+                    android:layout_margin="10dp"
+                    android:layout_weight="0.5"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
